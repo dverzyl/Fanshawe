@@ -32,7 +32,7 @@
 			</p>
 
 			<fieldset>
-			<legend>What is your preferred position? </legend>
+			<legend><b>What is your preferred position?<b> </legend>
 			<p><label> <input type="radio" name="position" required value="F"> Forward </label></p>
 			<p><label> <input type="radio" name="position" required value="M"> Midfield </label></p>
 			<p><label> <input type="radio" name="position" required value="D"> Defense </label></p>
@@ -40,18 +40,21 @@
 			</fieldset>
 
 			<p class="status optional">
-			<label>Preferred Start Date (optional)
+			<label>Preferred <b>Start</b> Date (optional)
 			<input type="date" name="pickup_time">
 			</label>
 			</p>
 				
+			<div>
 			<p class="status optional">
 			<label>Preferred Field Location (optional)
 			<select id="pickup_place" name="pickup_place">
-			<option value="" selected="selected">Select One</option>
+			<option value="selected" selected">Select One</option>
 			<option value="NL" >North London</option>
 			<option value="Byron" >Byron</option>
 			<option value="CW" >Citywide</option>
+			</div>
+			
 			</select>
 			</label> 
 			</p>
@@ -75,13 +78,14 @@
 				<option value="11">
 			</datalist>
 			</p>
-
+			
+			<aside>
 			<p class="status optional">
 			<label>Special Instructions (optional)
 			<textarea name="comments" maxlength="500"></textarea>
 			</label>
 			</p>
-
+			</aside>
 			<p><button>Submit Form</button></p>
 
 		</form>

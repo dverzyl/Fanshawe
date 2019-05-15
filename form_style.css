@@ -4,14 +4,12 @@ body {
 
 h1#main-header {
 		color: Purple;
-		font-weight: bold;
 		font-family: calibri;
 		font-size: 2.0em;
 	}
 	
 h2#main-header1 {
 		color: yellow;
-		font-weight: bold;
 		font-family: calibri;
 		font-size: 2.0em;
 	}
@@ -42,6 +40,41 @@ p, legend {
 fieldset {
 	width: 400px;
 }
+
+/*Descendant Selector*/
+
+p b {
+	color: red;
+}
+
+fieldset b {
+	color: purple;
+}
+
+
+/*Child Selector*/
+
+div > p {
+	color: pink;
+}
+
+aside > p {
+	color: blue;
+}
+
+
+/*Sibling Selector*/
+
+h1 ~ h2 {
+	font-style: italic;
+	}
+
+
+div + aside {
+	font-weight; bold;
+	}
+
+
 
 @media screen and (max-width: 520px) {
 
