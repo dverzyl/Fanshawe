@@ -69,6 +69,7 @@ h1 ~ h2 {
 	font-style: italic;
 	}
 
+/*adjacent selector*/
 
 div + aside {
 	font-weight; bold;
