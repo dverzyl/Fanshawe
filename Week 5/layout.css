@@ -41,7 +41,7 @@
 #menu a {
     float: left;
     padding: 12px 30px;
-    color: #999;
+    color: blue;
     text-transform: uppercase;
     font: bold 12px Arial, Helvetica;
     text-decoration: none;
@@ -106,6 +106,7 @@
     white-space: nowrap;
     float: none;
     text-transform: none;
+	color: red;
 }
 
 #menu ul a:hover {
