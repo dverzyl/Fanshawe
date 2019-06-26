@@ -14,6 +14,9 @@ fieldset {
 }
 ```
 
+Week 3 - Github Desktop and Advanced Selectors
+
+
 ### Prerequisites
 
 A knowledge of HTML5 is a pre-requisite for this course.
